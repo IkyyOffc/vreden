@@ -2070,15 +2070,15 @@ async function bardnya(query) {
 async function igdown(q) {
     try {
 const response = await axios.post(
-  'https://igdown.app/api/ajaxSearch',
-  `k_exp=1724325144&k_token=06b9efc03e25111e755086c03c3a77a5c1dc3a83b56a30ccbb083b08e016a96a&q=${q}&t=media&lang=id&v=v2`,
+  'https://savethevideo.app/api/ajaxSearch',
+  `k_exp=1724325144&k_token=06b9efc03e25111e755086c03c3a77a5c1dc3a83b56a30ccbb083b08e016a96a&q=${q}&t=media&lang=id&v=v2&share=true`,
   {
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'Accept': '*/*',
       'X-Requested-With': 'XMLHttpRequest',
       'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36',
-      'Referer': 'https://igdown.app/id'
+      'Referer': 'https://savethevideo.app/id'
     }
   }
 );
